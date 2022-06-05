@@ -1,5 +1,13 @@
 # tea-api
 
-I added the npm cors so we dont have issues putting it into Heroku
+add code to ensure we dont have cors issues and have issues when we add the code to heroku
 
-Then logged into Heroku and will attempt to add it there.
+-const cors = require('cors')
+
+-app.use(cors())
+
+-$ npm install cors
+
+
+
+Then pushed code into Heroku and will attempt to add it there.
